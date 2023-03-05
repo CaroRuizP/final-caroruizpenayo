@@ -1,0 +1,19 @@
+/*CONTENIDO PRINCIPAL*/
+
+main{
+    background-color:#e8e7ed;
+}
+
+.banner-hero{
+    background-image: url('../recursos/img-hero.jpeg');
+    height: 70vh;
+    background-size: cover;
+}
+
+.banner-hero h1{
+    text-align: center;
+    color: $color-oscuro;
+    position:relative;
+    top: 81%;
+}
+
