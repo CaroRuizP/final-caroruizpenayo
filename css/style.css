@@ -39,15 +39,30 @@ main {
   background-color: #e8e7ed; }
 
 .banner-hero {
-  background-image: url("../recursos/img-hero.jpeg");
-  height: 70vh;
-  background-size: cover; }
+  background-image: url("../../recursos/img-hero.jpeg");
+  background-size: cover;
+  padding-top: 5em;
+  background-blend-mode: multiply;
+  background-attachment: scroll;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center; }
 
 .banner-hero h1 {
-  text-align: center;
+  display: flex;
+  justify-content: center;
   color: #464655;
   position: relative;
-  top: 81%; }
+  top: 10vh; }
+
+@media (min-width: 900px) {
+  .banner-hero h1 {
+    font-size: 3.75rem; } }
+
+@media (min-width: 768px) {
+  .banner-hero h1 {
+    font-size: 2.5rem; } }
 
 .navbar-nav .nav-link.active, .navbar-nav .show.nav-link {
   color: #ffffff; }
