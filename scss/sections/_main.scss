@@ -18,8 +18,10 @@ main{
 
 .banner-hero h1{
     display: flex;
+    font-weight:800; 
     justify-content: center;
-    color: $color-oscuro;
+    color: white;
+    text-shadow: 1px 1px 10px #000;
     position:relative;
     top: 10vh;
 }
@@ -27,11 +29,15 @@ main{
 @media (min-width: 900px){
 .banner-hero h1{
     font-size: 3.75rem;
+    display: flex;
+    justify-content: center;
 }
 }
 
 @media (min-width: 768px){
 .banner-hero h1 {
-        font-size: 2.5rem;
+    font-size: 2.75rem;
+    display: flex;
+    justify-content: center;
 }
 }
